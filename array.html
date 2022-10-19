@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>array</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+       
+    var frutas = ['Maçã', 'Banana'];
+    var adicionar = frutas.push('Laranja');
+    //document.writeln(frutas);
+    var primeiro = frutas[0];
+    document.writeln(primeiro);
+    var ultimo = frutas[1];
+    document.writeln(ultimo);
+    var ultimo = frutas.pop();
+    document.writeln(ultimo +"<br>")
+    frutas.push('Manga');
+    document.writeln(frutas);
+    var pos = frutas.indexOf('Banana');
+    document.writeln(pos+"<br>");
+    var removedItem = frutas.splice(pos, 1);
+    document.writeln(frutas+"<br>")
+// 2
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

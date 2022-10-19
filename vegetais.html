@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>vegetais</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        var vegetais = ['Repolho', 'Nabo', 'Rabanete', 'Cenoura'];
+        document.writeln("lista de vegetais: "+ vegetais+"<br>")
+        var pos =prompt("Digete de qual posição vai remover")
+        var n=prompt("digite quantos remover a partir desse?")
+        var removedItem = vegetais.splice(pos, n)
+        document.writeln("<br>"+vegetais+"<br>")
+        document.writeln("<br>"+removedItem+"<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
